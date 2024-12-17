@@ -1,9 +1,28 @@
+/* ************************** rootlayout ****************************************** */
+
+.full-page {
+    width: 100vw;
+    height: 100vh;
+   background-color:black; 
+}
+
+/* ************************** homelayout ****************************************** */
+.homelayout{
+    min-height:85%;
+    overflow: scroll;
+   
+}
+/* ************************** challenge post ****************************************** */
 .post-container{
     max-width:900px;
     gap:30px;
+    max-height:100%;
     flex-direction: column;
     display: flex;
     justify-content: start;
+    align-items: center;
+    overflow: scroll;
+    
 }
 .description {
     border-radius: 15px;
@@ -11,26 +30,57 @@
     font-size: 13px;
     font-weight: 200;
     color: black;
+    width: 100%;
 }
 .postholder {
     width: 100%;
-    height: 500px;
-    background-color: azure;
+    min-height: 50%;
+    background-color: rgb(87, 126, 126);
     border-radius: 15px;
 }
 .post-size {
     width: 100%;
-    height: 100%;
+    height: 400px;
     object-fit: cover;
     border-radius: 15px;
+    background-color: rgb(87, 126, 126);
 }
-.footer{
+.postfooter{
     width: 100%;
     height: 70px;
     background-color: rgb(40, 40, 28);
     border-radius: 20px;
 }
-.footer button {
+.postfooter button {
   font-size: 20px;
   cursor: pointer;
+}
+.submit{
+    background-color: green;
+    width: 30%;
+    height: 45px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* ************************** home page ****************************************** */
+
+
+.homepage {
+    width: 100%;
+    min-height:100%;
+    display: flex;
+    justify-content: start;
+    border: 6px solid black;
+    background-color:#eaeaea;  
+}
+
+
+/* ************************** challenges ****************************************** */
+.challenges {
+    background-color: yellowgreen;
+    min-height:400px;
+    width: 100%;
+
 }

@@ -1,16 +1,18 @@
+/* ********************************* PostHeader **************************** */
+
 .post-header{ 
     width: 100%;
-    height: 50px;
-    background-color: rgb(246, 85, 10);
+    height: 70px;
+    background-color: rgb(99, 94, 92);
     border-radius: 15px;
 }
 .post-header img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 .user-name {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
 }
 .post-time{
@@ -21,4 +23,78 @@
     color: black;
     font-weight: 500;
     font-size: 14px;
+}
+
+/* ********************************* talentSelector**************************** */
+
+.introduction {
+    color: black;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #bac0de;
+    font-weight: 600;
+}
+.challenge-card {
+    
+}
+.card {
+    background-color: orchid;
+}
+.top{
+    background-color: orangered;
+    height: 40px;
+    box-shadow: 0 4px 8px 0 orange, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card-header{
+   font-size: 13px;
+   font-style: italic;
+   color: black;
+   font-weight: 700;
+  
+}
+.card-body{
+    box-shadow: 0 4px 8px 0 orange, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logo-select {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color:blueviolet;
+    margin-left: 5px;
+}
+.card-text {
+    font-size: 12px; 
+    font-style: oblique;
+    font-weight: 600;
+}
+.card-body button {
+    font-size: 12px;
+    margin-top: 17px;
+    font-weight: 700;
+    height: 30px; 
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ********************************* participantdisplayer **************************** */
+
+.participantdisplayer {
+    min-height:100%;
+    border: 2px solid black;
+    background-color: cadetblue;
+}
+.videodisplayer{
+   min-height:400px ;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.video{
+    border-radius: 15px;
+    /* min-height: 500px;
+    width: 80%; */
 }
