@@ -126,7 +126,7 @@ const ParticipantsDisplayer = (props) => {
                     <p style={{fontSize:'18px',color:'white'}}>4.5<span style={{fontSize:'18px',color:'gold'}}>   *****</span></p> 
                       <p style={{fontSize:'11px',color:'white',marginTop:"-9px",marginLeft:"29px"}}>rating</p>
                    </div>
-                   <button style={{color:'lightgreen' ,backgroundColor:'#114fc2'
+                   <button style={{backgroundColor:'#114fc2'
                       ,width:'90px',color:"lightblue",height:'100%',fontSize:"16px",fontWeight:"800"
                       }}>
                       Follow
